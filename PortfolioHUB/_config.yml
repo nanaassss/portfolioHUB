@@ -1,0 +1,34 @@
+# GitHub Pages Configuration
+title: PortfolioHUB
+description: Portfólio Profissional de Geovanna - Desenvolvedora Full-Stack
+author: Geovanna
+email: geovanna@email.com
+
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-minimal
+
+# Exclude files
+exclude:
+  - .git
+  - .gitignore
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - package.json
+  - package-lock.json
+
+# URL settings
+url: "https://geovanna.github.io"
+baseurl: "/PortfolioHUB"
+
+# Social
+github_username: geovanna
+linkedin_username: geovanna
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
